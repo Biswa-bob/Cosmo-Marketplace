@@ -5,7 +5,7 @@ import Web3Modal from "web3modal";
 
 import { nftaddress, nftmarketAddress } from "../config";
 
-import NFT from "../artifacts/contracts/NFT.sol/NFT.json";
+import NFT from "../artifacts/contracts/NFT.sol/";
 import Market from "../artifacts/contracts/NFTMarket.sol/NFTMarket.json";
 
 export default function Home() {
