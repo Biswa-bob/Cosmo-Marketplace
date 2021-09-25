@@ -56,7 +56,7 @@ function MyApp({ Component, pageProps }) {
                 <a className="nav-link scrollto ">Sell Cosmo NFT</a>
               </Link>
               <Link href="/my-assets">
-                <a className="nav-link scrollto">My NFT's</a>
+                <a className="nav-link scrollto">My NFT</a>
               </Link>
               <Link href="/creator-dashboard">
                 <a className="nav-link scrollto">Creator Dashboard</a>
