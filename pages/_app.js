@@ -49,14 +49,17 @@ function MyApp({ Component, pageProps }) {
 
           <nav id="navbar" className="navbar order-last order-lg-0 mx-center">
             <ul>
+              <Link href="https://cosmoinfinitas.firebaseapp.com/">
+                <a className="nav-link scrollto ">Home</a>
+              </Link>
               <Link href="/">
-                <a className="nav-link scrollto active">Home</a>
+                <a className="nav-link scrollto active">MarketPlace</a>
               </Link>
               <Link href="/create-item">
-                <a className="nav-link scrollto ">Sell Digital Asset</a>
+                <a className="nav-link scrollto ">Sell Cosmo NFT</a>
               </Link>
               <Link href="/my-assets">
-                <a className="nav-link scrollto">My Digital Assets</a>
+                <a className="nav-link scrollto">My NFT's</a>
               </Link>
               <Link href="/creator-dashboard">
                 <a className="nav-link scrollto">Creator Dashboard</a>
