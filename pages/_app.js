@@ -49,9 +49,6 @@ function MyApp({ Component, pageProps }) {
 
           <nav id="navbar" className="navbar order-last order-lg-0 mx-center">
             <ul>
-              <Link href="https://cosmoinfinitas.firebaseapp.com/">
-                <a className="nav-link scrollto ">Home</a>
-              </Link>
               <Link href="/">
                 <a className="nav-link scrollto active">MarketPlace</a>
               </Link>
